@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 def gradient_Descending(b, x0=2.0, y0=2.0, steps=15):
     x, y = x0, y0
     f = [(x, y)]
